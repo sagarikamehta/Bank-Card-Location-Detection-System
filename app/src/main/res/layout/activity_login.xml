@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="376dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/loginimage" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:visibility="gone"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:inputType="number"
+        android:hint="Customer Id" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="192dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="60dp"
+        android:text="LogIn"
+
+        android:textColor="#003d52"
+        android:background="#bdeeff"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="172dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="180dp"
+        android:ems="10"
+        android:textColor="@color/colorAccent"
+        android:inputType="textPersonName"
+        android:text="Forget Password?"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="New User"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context=".ApplyActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Apply Now" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="70dp"
+        android:textColor="#003d52"
+        android:background="#bdeeff"
+        android:textSize="20dp"
+        android:text="Debit Card" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#003d52"
+        android:background="#d6e2b1"
+        android:textSize="20dp"
+        android:text="Debit Card with Location Chip" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#003d52"
+        android:background="#bdeeff"
+        android:textSize="20dp"
+        android:text="Credit Card" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#003d52"
+        android:background="#d6e2b1"
+        android:textSize="20dp"
+        android:text="Credit Card with Location chip" />
+
+
+</LinearLayout>
